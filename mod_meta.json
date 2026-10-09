@@ -1,0 +1,10 @@
+{
+    "Author": "mmbluey",
+    "Name": "EncyclopediaPlus",
+    "ModGUID": "mmbluey.encyclopediaplus",
+    "ModAssembly": "EncyclopediaPlus.dll",
+    "Entrypoint": "EncyclopediaPlus.Loader/Initialize",
+    "Version": "1.0.0",
+    "MinWinchVersion": "0.6.0",
+    "ApplyPatches": true
+}

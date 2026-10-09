@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<LangVersion>default</LangVersion>
+		<AssemblyName>EncyclopediaPlus</AssemblyName>
+		<Description>Add extra details to the encyclopedia: Trawl Depths, Total Fish Caught</Description>
+		<Version>0.0.1</Version>
+		<CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<Optimize>True</Optimize>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="DredgeGameLibs" Version="1.5.3" />
+		<PackageReference Include="HarmonyX" Version="2.10.1" />
+		<PackageReference Include="Winch" Version="0.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="mod_meta.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
